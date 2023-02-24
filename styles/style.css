@@ -1,0 +1,65 @@
+@font-face {
+    font-family: PermanentMarker;
+    src: url(../fonts/PermanentMarker.ttf);
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    font-family: "Comic Sans MS", cursive;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column nowrap;
+    background-color: #222222;
+}
+.board {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    width: 70vmin;
+    height: 70vmin;
+    background-color: #eeeeee;
+}
+.gameFields {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(70vmin / 3 - .3vmin);
+    height: calc(70vmin / 3 - .3vmin);
+    cursor: pointer;
+    background-color: #222222f4;
+    color: skyblue;
+    font-size: 12vmin;
+    font-family: PermanentMarker, cursive;
+}
+.status {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    margin-top: 5vmin;
+    font-weight: bold;
+}
+.status p {
+    text-align: center;
+    color: #eeeeee;
+    font-size: 7vmin;
+}
+.status button {
+    width: 40vmin;
+    height: 7vmin;
+    cursor: pointer;
+    background-color: #ffffff20;
+    color: #eeeeee;
+    font-size: 3vmin;
+    border: .1vmin solid #ffffff00;
+}
+.animation {
+    border: .1vmin solid #ffffffff !important;
+    transition: border .5s;
+}
