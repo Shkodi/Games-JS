@@ -22,41 +22,41 @@ body {
     flex-wrap: wrap;
     justify-content: space-between;
     align-content: space-between;
-    width: 70vmin;
-    height: 70vmin;
+    width: min(90vw, 70vh);
+    height: min(90vw, 70vh);
     background-color: #eeeeee;
 }
 .gameFields {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(70vmin / 3 - .3vmin);
-    height: calc(70vmin / 3 - .3vmin);
+    width: min(calc(90vw / 3 - .5vw), calc(70vh / 3 - .3vh));
+    height: min(calc(90vw / 3 - .5vw), calc(70vh / 3 - .3vh));
     cursor: pointer;
     background-color: #222222f4;
     color: skyblue;
-    font-size: 12vmin;
+    font-size: min(20vw, 15vh);
     font-family: PermanentMarker, cursive;
 }
 .status {
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
-    margin-top: 5vmin;
+    margin-top: min(8vw, 4vh);
     font-weight: bold;
 }
 .status p {
     text-align: center;
     color: #eeeeee;
-    font-size: 7vmin;
+    font-size: min(10vw, 7vh);
 }
 .status button {
-    width: 40vmin;
-    height: 7vmin;
+    width: min(400px, 90vw);
+    height: min(10vw, 7vh);
     cursor: pointer;
     background-color: #ffffff20;
     color: #eeeeee;
-    font-size: 3vmin;
+    font-size: min(6vw, 3vh);
     border: .1vmin solid #ffffff00;
 }
 .animation {
