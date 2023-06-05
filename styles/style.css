@@ -2,12 +2,16 @@
     font-family: PermanentMarker;
     src: url(../fonts/PermanentMarker.ttf);
 }
+@font-face {
+    font-family: ComicNeue;
+    src: url(../fonts/ComicNeue.ttf);
+}
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     user-select: none;
-    font-family: "Comic Sans MS", cursive;
+    font-family: ComicNeue, cursive;
 }
 body {
     height: 100vh;
