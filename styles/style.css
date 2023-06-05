@@ -52,11 +52,11 @@ body {
 }
 .status button {
     width: min(400px, 90vw);
-    height: min(10vw, 7vh);
+    height: min(12vw, 8vh);
     cursor: pointer;
     background-color: #ffffff20;
     color: #eeeeee;
-    font-size: min(6vw, 3vh);
+    font-size: min(8vw, 4vh);
     border: .1vmin solid #ffffff00;
 }
 .animation {
